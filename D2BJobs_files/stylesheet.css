@@ -1,0 +1,1611 @@
+html {
+    overflow-y: scroll;
+    border: none;
+    outline: none;}
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    font-size: 13px;
+    color: #4a4949;}
+
+/* Text */
+h1 {
+    color: #EFAC12;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 150%;
+    margin: 20px 0;
+    line-height: 28px;
+    clear: both;}
+
+
+h1.header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a59454;
+    width: 31.8%;
+    float: left;
+    margin: 44px 0 0 0;
+    clear: both;}
+
+
+h1.top {
+    margin: 0 0 15px 0;
+    color: #a59454;
+}
+
+h1.top-regatta {
+    margin: 0;
+}
+
+h1.top-dare2b {
+    margin: 0;
+    color: #0080BB;}
+
+h1.top-craghoppers {
+    margin: 0;
+    color: #000000;}
+
+h1.home-title {
+    margin: 70px 0 0 0;
+    max-width: 31.8%;
+    float: left;
+    color:#a59454;
+}
+
+h1.fj {
+    margin: 0 0 43px 0;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    color:#a59454;
+    border-bottom: 1px solid #a59454}
+
+h2 {color: #EFAC12;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 115.3%;
+    line-height: 26px;
+    clear: both;
+    margin: 0;}
+
+h2.title-dare2b {
+    color:#0080BB;}
+
+h2.title-craghoppers {
+    color:#000000;}
+
+h2.header, h2.header-dare2b, h2.header-craghoppers, h2.header-regatta-main {
+    width: 31.8%;
+    font-size: 115.3%;
+    margin: 47px 0 0 0;
+    padding-bottom: 4px;
+    float: left;}
+
+h2.header {
+    color:#EFAC12;
+    border-bottom: 1px solid #EFAC12;}
+
+h2.header-regatta-main {
+    color:#a59454;
+    border-bottom: 1px solid #a59454;}
+
+
+
+h2.header-dare2b {
+    color:#0080BB;
+    border-bottom: 1px solid #0080BB;}
+
+h2.header-craghoppers {
+    color:#000000;
+    border-bottom: 1px solid #000000;}
+
+h2.benefits {
+    width: 31.8%; 
+    margin: 30px 0 0 0; 
+    clear: both; 
+    float: left; 
+    line-height: 22px;
+    color:#a59454;
+}
+
+p {
+    margin:0; 
+    padding: 0;}
+
+p.fj-title {
+    text-transform: uppercase; 
+    font-size: 110%; 
+    margin-bottom: 10px; 
+    clear: both;}
+
+p.footer-regatta, p.footer-dare2b {
+    color: #FFF; 
+    float: left; 
+    margin-top: 17px;}
+
+p.footer-blue-octopus-light {
+    color: #FFF; 
+    float: left; 
+    margin-top: 17px;
+    font-size: 80%;}
+
+p.footer-craghoppers {
+    color: #000000; 
+    float: left; 
+    margin-top: 17px;}
+
+p.dare2b {
+    color: #1a1a1a;}
+
+p.craghoppers {
+    color: #000000;}
+
+p.quote {
+    font-size: 110%;
+    color: #a59454;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 23px;}
+
+p.occupation {
+    display: inline;}
+
+p.vacancy {
+    text-transform: uppercase; 
+    font-size: 110%; 
+    margin-bottom: 10px;}
+
+p.form-title {
+    text-transform: uppercase; 
+    color: #a59454; 
+    padding-bottom: 13px;}
+
+p.form-location, p.form-option  {
+    text-transform: uppercase; 
+    color: #a59454;
+    padding-top: 20px;
+    padding-bottom: 10px;}
+
+p.footer-blue-octopus-light, p.footer-blue-octopus-dark {
+    float: right; 
+    margin-top: 16px;
+    font-size: 80%;}
+
+p.footer-blue-octopus-dark {
+    color: #000000;}
+
+p.footer-blue-octopus-light {
+    color: #FFFFFF;}
+
+a {
+    text-decoration: none;}
+
+a:focus {
+    background-color: transparent;}
+
+a.blue-octopus-light {
+    color: #59BDD2;}
+
+a.blue-octopus-dark {
+    color: #192C48;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+img {
+    border-style: none;
+    border: 0;
+    }
+
+table {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;}
+
+
+
+
+
+/**********************************************************
+MAIN WRAPPERS
+**********************************************************/
+.wrapper {
+    width: 100%; margin: 0 auto; padding: 0;}
+
+/* This changes */
+.main-header-regatta {
+    width: 100%; background-color: #373737; border-bottom: 10px solid #a59454;}
+
+.main-header-regatta-brand {
+    width: 100%; background-color: #373737; border-bottom: 10px solid #EFAC12;}
+
+.main-header-dare2b {
+    width: 100%; background-color: #1a1a1a; border-bottom: 10px solid #0080BB;}
+
+.main-header-craghoppers {
+    width: 100%; background-color: #F0ECDC; border-bottom: 10px solid #000000;}
+
+/*****/
+
+
+.header {
+    max-width: 1100px; margin: 0 auto;}
+
+.inner-header {
+    width: 100%; margin: 0 auto; position: relative; clear: both;}
+
+.main-content {
+    max-width: 1100px; margin: 0 auto; clear: both;}
+
+.content {
+    width: 100%; margin: 0 auto; clear: both;}
+
+.inner-content {
+    width: 100%; margin: 40px auto 70px auto; clear: both; overflow:hidden}
+
+.inner-page-content {
+    float: right; max-width: 65.9%; margin-top: 70px;}
+
+.inner-page-content-top {
+    float: right; max-width: 65.9%; margin-top: 70px;}
+
+.inner-page-content-middle, .inner-page-content-bottom {
+    float: right; max-width: 65.9%; margin-top: 30px;}
+
+.content-top, .content-top-craghoppers {
+    width: 65.9%; max-width: 100%; height: auto; float: right; margin-bottom: 30px;}
+
+.content-vacancy {
+    width: 65.9%; max-width: 100%; height: auto; float: right;}
+
+.vacancy-details {
+    width:20%; float: left;}
+
+.content-left {
+    width: 25%; float: left;}
+
+.search-form {
+    width: 100%%; float: left;}
+
+.email {
+    width: 105%; float: left; border-top: 1px solid #a59454; margin-top: 30px;}
+
+.vacancy-buttons, .files, .vacancy-list {
+    width: 65.9%; max-width: 100%; height: auto; float: right; margin-top: 30px;}
+
+
+
+
+
+
+/**********************************************************
+FULL SCREEN NAVIGATION + Brands
+**********************************************************/
+.drop-down-navigation {
+    display: none;}
+
+ul.regatta-nav, ul.dare2b-nav, ul.craghoppers-nav {
+    margin: 30px auto 0 auto; font-size: 14px; text-transform: uppercase;}
+
+ul.regatta-nav li {
+    display: inline-block; border-right: 1px solid #EFAC12; padding: 8px 0 10px 0;}
+
+ul.regatta-nav li a, ul.dare2b-nav li a {
+    color: #FFF; padding: 11px 30px 13px 30px;}
+
+ul.regatta-nav li.about-regatta, li.about-dare2b, li.about-craghoppers, li.benefits, li.our-people, li.vacancies {
+    margin-left: -4px;}
+
+ul.regatta-nav li.vacancies, ul.dare2b-nav li.vacancies, ul.craghoppers-nav li.vacancies {
+    border: none;}
+
+ul.regatta-nav li a:hover {
+    color: #575756; background-color: #EFAC12;}
+
+ul.regatta-nav li a#current {
+    color: #575756; background-color: #EFAC12;}
+
+/**********************************************************
+FULL SCREEN NAVIGATION HOME, BENEFITS, OUR PEOPLE, VACANCIES
+**********************************************************/
+.drop-down-navigation {
+    display: none;}
+
+ul.regatta-main-nav, ul.dare2b-nav, ul.craghoppers-nav {
+    margin: 30px auto 0 auto; font-size: 14px; text-transform: uppercase;}
+
+ul.regatta-main-nav li {
+    display: inline-block; border-right: 1px solid #a59454; padding: 8px 0 10px 0;}
+
+ul.regatta-main-nav li a, ul.dare2b-nav li a {
+    color: #FFF; padding: 11px 30px 13px 30px;}
+
+ul.regatta-main-nav li.about-regatta, li.about-dare2b, li.about-craghoppers, li.benefits, li.our-people, li.vacancies {
+    margin-left: -4px;}
+
+ul.regatta-main-nav li.vacancies, ul.dare2b-nav li.vacancies, ul.craghoppers-nav li.vacancies {
+    border: none;}
+
+ul.regatta-main-nav li a:hover {
+    color: #FFF; background-color: #a59454;}
+
+ul.regatta-main-nav li a#current {
+    color: #FFF; background-color: #a59454;}
+
+
+/**********************************************************
+DARE2B NAVIGATION COLOR CHANGES
+**********************************************************/
+
+ul.dare2b-nav li {
+    display: inline-block; border-right: 1px solid #0080BB; padding: 8px 0 10px 0;}
+
+ul.dare2b-nav li.about-regatta, li.about-dare2b, li.about-craghoppers, li.benefits, li.our-people, li.vacancies {
+    margin-left: -4px;}
+
+ul.dare2b-nav li a:hover {
+    color: white; background-color: #0080BB;}
+
+ul.dare2b-nav li a#current {
+    color: white; background-color: #0080BB;}
+
+
+/**********************************************************
+CRAGHOPPERS NAVIGATION COLOR CHANGES
+**********************************************************/
+
+ul.craghoppers-nav li {
+    display: inline-block; border-right: 1px solid #000000; padding: 8px 0 10px 0;}
+
+ul.craghoppers-nav li.about-regatta, li.about-dare2b, li.about-craghoppers, li.benefits, li.our-people, li.vacancies {
+    margin-left: -4px;}
+
+ul.craghoppers-nav li a:hover {
+    color: white; background-color: #000000;}
+
+ul.craghoppers-nav li a#current {
+    color: white; background-color: #000000;}
+
+ul.craghoppers-nav li a {
+    color: #000000; padding: 11px 30px 13px 30px;}
+
+
+
+
+
+
+/**********************************************************
+IMAGES
+**********************************************************/
+
+/* Banners*/
+.banner-wrapper {
+    max-width: 1100px; 
+    max-height: 450px; 
+    height: auto; 
+    margin: 0 auto; 
+    position: relative; 
+    overflow: hidden;}
+
+.banner, .banner-regatta, .banner-dare2b, .banner-craghoppers {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border:0;}
+
+.banner-regatta img, .banner-dare2b img, .banner-craghoppers img {
+    max-width: 100%; 
+    display: block;
+    margin: 0 auto;}
+
+.banner-slider {
+    position: relative;
+    width: 100%}
+
+.banner-slider img {
+    max-width: 100%;
+    display: block;
+    width: 100%;}
+
+.banner-static {
+    display:none;}
+
+
+
+
+/* Logos */
+img.logo {
+    max-width: 25.5%; 
+    min-width: 20%; 
+    height: auto; 
+    margin-top: 27px;}
+
+img.logo-brands {
+    max-width: 25.5%; 
+    min-width: 20%; 
+    height: auto; 
+    margin-top: 27px;}
+
+img.vacancy-logo {
+    width: 150px; 
+    height: auto;}
+
+
+img.vacancy-details-logo {
+    max-width: 100%; 
+    min-width: 20%; 
+    height: auto; 
+    margin-bottom: 10px;}
+
+
+/* Images */
+img.home-regatta, img.benefits-left, img.our-people-left {
+    width: 31.8%; 
+    max-width: 100%; 
+    height: auto; 
+    margin-right: 2.27%; 
+    float: left;}
+
+img.home-dare2b, img.benefits, img.our-people {
+    width: 31.8%; 
+    max-width: 100%; 
+    height: auto; 
+    float: left;}
+
+img.home-craghoppers, img.benefits-right, img.our-people-right {
+    width: 31.8%; 
+    max-width: 100%; 
+    height: auto; 
+    float: right;}
+
+
+img.brand-page-regatta, img.brand-page-dare2b, img.brand-page-craghoppers {
+    width: 65.9%; 
+    max-width: 100%; 
+    height: auto; 
+    float: right;}
+
+
+
+
+
+/**********************************************************
+BUTTONS
+**********************************************************/
+
+a.up-button {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    width: 80px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 7px 10px;}
+
+a.up-button:hover, a.up-button:active {
+    background: #373737; 
+    color: #FFF;}
+
+
+a.back-button {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    max-width: 80px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 7px 10px;}
+
+a.back-button:hover, a.back-button:active {
+    background: #575756; 
+    color: #FFF;}
+
+
+a.apply-button {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    max-width: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 7px 10px;
+    display: inline-block;
+    margin-left: 5px;}
+
+a.apply-button:hover, a.apply-button:active {
+    background: #575756; 
+    color: #FFF;}
+
+a.email-button {
+    font-size: 90%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    margin-top: 20px;
+    border-top: 1px solid #a59454;}
+
+a.email-button:hover, a.email-button:active {
+    background: #575756; 
+    color: #FFF;}
+
+
+a.read-more-button {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    max-width: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 7px 20px;
+    display: inline-block;}
+
+a.read-more-button:hover, a.read-more-button:active {
+    background: #575756; 
+    color: #FFF;}
+
+
+
+
+/*************************************
+FEATURED JOBS
+*************************************/
+
+.main-wrapper-fj {
+    width: 100%; margin: 0 auto; background-color: #E9E9E9; clear: both; overflow: hidden;}
+
+.main-fj {
+    max-width: 1100px; margin: 0 auto; clear: both;}
+
+.content-fj {
+    width: 100%; margin: 0 auto; clear: both; padding: 45px 0 50px 0;}
+
+.inner-content-fj {
+    width: 100%; margin: 0 auto; clear: both; overflow: hidden;}
+
+
+
+.fj-regatta, .fj-dare2b, .fj-craghoppers {
+    width: 20.7%;}
+
+.fj-regatta {
+    float: left; 
+    margin-right: 18.95%;}
+
+.fj-dare2b {
+    float: left;}
+
+.fj-craghoppers {
+    float: right;}
+
+
+
+img.fj-logo-regatta, img.fj-logo-dare2b, img.fj-logo-craghoppers {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    float: left; 
+    margin-bottom: 25px;}
+
+a.fj-button {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    background: #a59454;
+    color: #FFF;
+    max-width: 90%;
+    display: block;
+    padding: 7px 0;
+    text-align: center;
+    margin-top: 25px;}
+
+
+a.fj-button:hover, #fj-button:active {
+    background: #575756; 
+    color: white;}
+
+
+
+
+
+/**********************************************************
+TABLES, FORM
+**********************************************************/
+
+
+table.vacancy-list {
+    width: 100%; padding: 0; margin: 0;}
+
+table.vacancy {
+    width: 100%; padding: 0; margin: 0 0 25px 0; border-bottom: 1px solid #a59454;}
+
+td.logo, td.location {
+    padding-bottom: 12px; padding-right: 10px;}
+
+
+td.vacancy-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 10px;}
+
+td.description {
+    padding-right: 10px;}
+
+
+td.read-more-button {
+    padding: 20px 10px 25px 0;}
+
+
+form {
+    width: 100%; 
+    font-size: 100%;}
+
+input[type=text], input[type=password] {
+    width: 276px;
+    height: 24px;
+    border: 1px solid #6F6F6E;
+    padding: 5px;
+    color: #575756;
+    font-family: Arial, Helvetica, sans-serif;}
+
+input[type=button], input[type=submit], .buttonlink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    height: 36px;
+    width: 100px;
+    background-color: #a59454;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    -webkit-appearance: none;}
+
+input[type=button]:hover, input[type=submit]:hover, .buttonlink:hover {
+    background-color: #575756;
+    color: #FFF;
+    border: none;
+    }
+
+.buttonlink
+{
+  display:inline-block;
+  outline: 0; 
+  margin: 0 4px 0 0;
+  padding: 9px 1em 4px;
+  height: 26px;
+  text-decoration: none !important; 
+  text-align: center; 
+}
+
+input[type=button]:active, input[type=submit]:active {
+    background-color: #575756;
+    color: #FFF;}
+
+
+select {
+    width: 288px;
+    height: 36px;
+    border: 1px solid #6F6F6E;
+    padding: 8px 5px;
+    color: #575756;
+    -webkit-appearance: none;}
+
+
+    
+
+
+
+/* Download files */
+table.download {
+    width: 70%; 
+    border-collapse: collapse; 
+    margin: 10px 0 0 0;}
+
+td.title {
+    padding: 10px 15px 10px 0; 
+    border-top: 1px solid #6F6F6E; 
+    border-bottom: 1px solid #6F6F6E;}
+
+td.download {
+    padding: 10px 0; 
+    border-top: 1px solid #6F6F6E; 
+    border-bottom: 1px solid #6F6F6E; 
+    width: 70px;}
+
+a.download {
+    color: #a59454; 
+    font-weight: bold; 
+    float: right;}
+
+a.download:hover, a.download:active {
+    color: #4a4949;}
+
+
+
+
+
+
+
+/**********************************************************
+FOOTER
+**********************************************************/
+
+.main-wrapper-footer-regatta {
+    width: 100%; margin: 0 auto; clear: both; overflow: hidden;}
+
+.main-wrapper-footer-regatta {
+    background-color: #373737;}
+
+.main-wrapper-footer-dare2b {
+    background-color: #1a1a1a;}
+
+.main-wrapper-footer-craghoppers {
+    background-color: #F0ECDC;}
+
+
+.main-footer {
+    max-width: 1100px; margin: 0 auto; clear: both;}
+
+.content-footer {
+    width: 100%; margin: 0 auto; clear: both; padding: 26px 0 23px 0; overflow: hidden;}
+
+a.blue-octopus-logo {
+    background-image: url(/Content/images/footer-sprite.png);
+    background-position: 0 -286px;
+    width: 282px;
+    height: 24px;
+    float: right;
+    margin-top: 15px;}
+
+a.blue-octopus-logo-dark {
+    background-image: url(/Content/images/footer-sprite.png);
+    background-position: 0 -323px;
+    width: 282px;
+    height: 24px;
+    float: right;
+    margin-top: 15px;}
+
+
+/* SOCIAL MEDIA */
+.social-media-links-regatta {
+    width: 321px; height: 53px; float: left; margin-left: 22%;}
+
+a.facebook-regatta {
+    background-image:url(/Content/images/footer-sprite-general-pages.png); background-position: -1px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.facebook-regatta:hover {
+    background-position: -1px -55px;}
+
+a.twitter-regatta {
+    background-image:url(/Content/images/footer-sprite-general-pages.png); background-position: -56px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.twitter-regatta:hover {
+    background-position: -56px -55px;}
+
+a.instagram-regatta {
+    background-image:url(/Content/images/footer-sprite-general-pages.png); background-position: -110px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.instagram-regatta:hover {
+    background-position: -110px -55px;}
+
+a.youtube-regatta {
+    background-image:url(/Content/images/footer-sprite-general-pages.png); background-position: -164px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.youtube-regatta:hover {
+    background-position: -164px -55px;}
+
+a.blog-regatta {
+    background-image:url(/Content/images/footer-sprite-general-pages.png); background-position: -218px -1px; width: 53px; height: 53px; float: left;}
+a.blog-regatta:hover {
+    background-position: -218px -55px;}
+
+
+/* SOCIAL MEDIA ABOUT REGATTA*/
+.social-media-links-about-regatta {
+    width: 321px; height: 53px; float: left; margin-left: 22%;}
+
+a.facebook-about-regatta {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -1px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.facebook-about-regatta:hover {
+    background-position: -1px -55px;}
+
+a.twitter-about-regatta {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -56px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.twitter-about-regatta:hover {
+    background-position: -56px -55px;}
+
+a.instagram-about-regatta {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -110px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.instagram-about-regatta:hover {
+    background-position: -110px -55px;}
+
+a.youtube-about-regatta {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -164px -1px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.youtube-about-regatta:hover {
+    background-position: -164px -55px;}
+
+a.blog-about-regatta {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -218px -1px; width: 53px; height: 53px; float: left;}
+a.blog-about-regatta:hover {
+    background-position: -218px -55px;}
+
+
+
+/* SOCIAL MEDIA - DARE2B */
+.social-media-links-dare2b {
+    width: 187px; height: 53px; float: left; margin-left: 22%;}
+
+a.facebook-dare2b {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -1px -110px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.facebook-dare2b:hover {
+    background-position: -1px -164px;}
+
+a.twitter-dare2b {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -56px -110px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+a.twitter-dare2b:hover {
+    background-position: -56px -164px;}
+
+a.instagram-dare2b {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -110px -110px; width: 53px; height: 53px; float: left;}
+a.instagram-dare2b:hover {
+    background-position: -110px -164px;}
+
+
+
+/* SOCIAL MEDIA - CRAGHOPPERS */
+.social-media-links-craghoppers {
+    width: 254px; height: 53px; float: left; margin-left: 22.2%;}
+
+a.facebook-craghoppers {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -1px -218px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+
+a.twitter-craghoppers {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -56px -218px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+
+a.instagram-craghoppers {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -110px -218px; width: 53px; height: 53px; float: left; margin-right: 14px;}
+
+a.pinterest-craghoppers {
+    background-image:url(/Content/images/footer-sprite.png); background-position: -164px -218px; width: 53px; height: 53px; float: left;}
+
+
+
+
+
+
+
+/****************************************************************************************
+ALL - SCREEN SIZE DOWN FROM 1020px
+****************************************************************************************/
+@media only screen and (max-width: 1019px)
+    
+{
+    
+    .banner img {
+        max-width: 1019px;
+        max-height: auto;
+        overflow: hidden;}
+    
+    .banner-wrapper, .banner {
+        max-width: 10190px; 
+        max-height: 286.3px;
+        overflow: hidden;}
+    
+    
+    /*Featured Jobs */
+    .fj-regatta, .fj-dare2b, .fj-craghoppers {
+        width: 25%;}
+    
+    .fj-regatta {
+        float: left; margin-right: 12.5%;}
+    
+    p.fj-location, .fj-salary {
+        display: none;}
+
+
+    .header {
+        width: 100%; margin: 0 auto;}
+    
+    img.logo {
+        padding-left: 30px; max-width: 282px; margin-top: 20px;}
+
+    img.logo-brands {
+        padding-left: 30px; max-width: 282px; margin-top: 20px;}
+    
+    
+    table.download {
+        width: 100%;}
+
+    .navigation {
+        display: none;}
+
+    .drop-down-navigation {
+        margin: 20px 0 0 0;
+        width:100%;
+        display: block;
+        z-index: 1000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;}
+    
+    
+    /* Navigation - Main drop-down */
+    .drop-down-navigation ul {
+        position:relative;}
+    
+    .drop-down-navigation ul li ul {
+        display:none;}
+    
+    .drop-down-navigation ul li ul {
+        position:absolute; left:0; right:0; font-size: 123%;}
+
+    .drop-down-navigation ul li.drop-down-menu-regatta a.menu {
+        position:relative; background-color:#575756; color:#FFF; font-size: 150%; border-top: 1px solid #4f4f51;}
+
+    .drop-down-navigation ul li.drop-down-menu-regatta a.menu:hover {
+        background-color: #EFAC12; border-top: 1px solid #4f4f51}
+
+
+    .drop-down-navigation ul li.drop-down-menu-regatta a {
+        transition:background-color 0.2s ease-in-out;
+        -webkit-transition:background-color 0.2s ease-in-out;
+        -moz-transition:background-color 0.2s ease-in-out;
+        display:block;
+        padding: 13px 13px 13px 30px;
+        background:#F2F2F2;
+        color:#333;
+        text-decoration:none;}
+
+    .drop-down-navigation ul li a {
+        background:#F2F2F2;}
+
+    .drop-down-navigation ul li a:hover {
+        background:#F2F2F2;}
+
+    img#clicker {
+        float: right; padding-right: 15px; padding-top: 1px;}
+
+    /* Fallbacks */
+    .drop-down-navigation .regatta-sub-menu ul, .drop-down-navigation .dare2b-sub-menu ul {
+        display:none;}
+
+    .drop-down-navigation .regatta-sub-menu:hover ul, .dare2b-sub-menu:hover ul {
+        display:block;}
+
+    .drop-down-navigation .regatta-sub-menu a:hover {
+        background-color: #EFAC12; color: white;}
+    
+    
+    
+    /* Navigation - Dare2b drop-down */
+    .drop-down-navigation ul li.drop-down-menu-dare2b a.menu {
+        position:relative; background-color:#1a1a1a; color:#FFF; font-size: 150%; border-top: 1px solid #000000;}
+
+    .drop-down-navigation ul li.drop-down-menu-dare2b a.menu:hover {
+        background-color: #0080BB; border-top: 1px solid #000000;}
+
+
+    .drop-down-navigation ul li.drop-down-menu-dare2b a {
+        transition:background-color 0.2s ease-in-out;
+        -webkit-transition:background-color 0.2s ease-in-out;
+        -moz-transition:background-color 0.2s ease-in-out;
+        display:block;
+        padding:13px 13px 13px 30px;
+        background:#F2F2F2;
+        color:#1a1a1a;
+        text-decoration:none;}
+    
+    /* Fallbacks */
+    .drop-down-navigation .dare2b-sub-menu a:hover {
+        background-color: #0080BB; color: white;}
+    
+    
+     /* Navigation - Craghoppers drop-down */
+    .drop-down-navigation ul li.drop-down-menu-craghoppers a.menu {
+        position:relative; background-color:#F0ECDC; color:#000000; font-size: 150%; border-bottom: none; border-top: 1px solid #000000;}
+
+    .drop-down-navigation ul li.drop-down-menu-craghoppers a.menu:hover {
+        background-color: #000000; color: #FFFFFF; border-top: 1px solid #000000;}
+
+    .drop-down-navigation ul li.drop-down-menu-craghoppers a {
+        transition:background-color 0.2s ease-in-out;
+        -webkit-transition:background-color 0.2s ease-in-out;
+        -moz-transition:background-color 0.2s ease-in-out;
+        border-bottom: 1px solid #ECECEC;
+        display:block;
+        padding:13px 13px 13px 30px;
+        background:#FFFFFF;
+        color:#000000;
+        text-decoration:none;}
+    
+    /* Fallbacks */
+    .drop-down-navigation .craghoppers-sub-menu a:hover {
+        background-color: #000000; color: #FFFFFF;}
+    
+    
+    
+}
+
+
+
+
+
+
+/****************************************************************************************
+SCREEN 960px
+****************************************************************************************/
+@media only screen  and (min-width: 1020px) and (max-width: 1260px)
+    
+{ 
+    input[type=text] {
+        width: 240px;}
+    
+    select {
+        width: 252px;}
+    
+    .banner img {
+        max-width: 960px;
+        max-height: auto;}
+    
+    .banner-wrapper, .banner {
+        max-width: 960px; 
+        max-height: 393px;
+        overflow: hidden;}
+    
+    
+    img.logo {
+        max-width: 282px;
+        
+    }
+
+       img.logo-brands {
+        max-width: 282px;
+        display:none;
+    }
+
+    .dropdown-navigation {
+        display: none;}
+
+    .header {
+        width: 960px; margin: 0 auto;}
+    
+    .content, .content-fj, .content-footer {
+        width: 960px; margin: 0 auto;}
+    
+    .social-media-links-regatta {
+        margin-left: 17%;}
+
+    .social-media-links-about-regatta {
+        margin-left: 17%;}
+    
+    .social-media-links-dare2b {
+        margin-left: 24%;}
+    
+    .social-media-links-craghoppers {
+        margin-left: 20.4%;}
+    
+    table.download {
+        width: 80%;}
+
+
+   
+}
+
+
+
+
+
+
+
+/****************************************************************************************
+SCREEN 700px - MIN 767px AND MAX 1019px
+****************************************************************************************/
+@media only screen and (min-width: 768px) and (max-width: 1019px)
+    
+{
+    
+         img.logo-brands {
+        max-width: 282px;
+        display:none;
+    }
+
+    h1.home-title {
+        margin-top: 60px;}
+    
+    h1.header {
+        margin-top: 34px;}
+    
+    h1.top-craghoppers {width: 30%;}
+    
+    h2.header, h2.header-dare2b, h2.header-craghoppers, h2.header-regatta-main  {
+        margin: 37px 0 0 0;}
+    
+    p.occupation {
+        display: none;}
+    
+    .content-top-craghoppers {margin-top: -28px;}
+    
+    .inner-content {
+        margin-bottom: 60px;}
+
+    .inner-page-content {
+        margin-top: 60px;}
+    
+    .inner-page-content-top {
+        float: right; max-width: 65.9%; margin-top: 60px;}
+
+    .inner-page-content-middle {
+        float: right; max-width: 65.9%; margin-top: 30px;}
+
+    .inner-page-content-bottom, .vacancy-buttons {
+        margin-top: 30px}
+    
+    .content, .content-fj, .content-footer {
+        width: 700px; margin: 0 auto;}
+    
+    .vacancy-details {
+        width: 26%;}
+    
+    .banner-wrapper, .banner img {
+        max-width: 700px;
+        max-height: 286px;}
+    
+    .content-left {
+        width: 27%;}
+    
+    input[type=text] {
+        width: 186px;}
+    
+    select {
+        width: 198px;}
+    
+    
+    
+    
+    /* Footer */
+    .content-footer {
+        padding: 15px 0 19px 0;}
+    
+    p.footer-regatta, p.footer-dare2b, p.footer-craghoppers {
+        float: left; margin:0 0 10px 0;}
+    
+    .social-media-links-regatta, .social-media-links-dare2b, .social-media-links-craghoppers, .social-media-links-about-regatta {
+        margin-left: 17%;}  {
+        float: left; margin:0; clear: both;}
+    
+    p.footer-blue-octopus-light, p.footer-blue-octopus-dark {
+        margin-top: 5px;}
+
+    
+    a.email-button {
+        font-size: 80%;}
+
+    
+}
+
+
+
+
+
+
+
+/****************************************************************************************
+ALL - SCREEN LOWER THAN 767px
+*****************************************************************************************/
+
+@media only screen and (max-width: 767px)
+    
+{
+         img.logo-brands {
+        max-width: 282px;
+        display:none;
+    }
+
+    h1 {
+        font-size: 140%;}
+    
+    h1.home-title {
+        margin: 30px 0 0 0; max-width: 100%; padding-right: 15px;}
+    
+    h1.header {
+        margin: 30px 0 0 0; width: 100%;}
+    
+    h2.header, h2.header-dare2b, h2.header-craghoppers, h2.header-regatta-main {
+        width: 100%; font-size: 115.3%; margin: 30px 0 0 0;}
+    
+    h2.benefits {
+        margin: 25px 0 0 0; width: 100%;}
+    
+    p.salary {
+        padding-bottom: 13px; border-bottom: 1px solid #EFAC12;}
+    
+    p.form-option {
+        display: none;}
+    
+    .files {
+        width: 100%; margin: 0 0 30px 0;}
+
+    
+    .banner {
+        display: none;}
+    
+    .banner-static {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+        border:0;
+        display: block;}
+    
+    .banner-static img {
+        max-width: 100%; 
+        display: block;
+        margin: 0 auto;}
+    
+    
+    
+    select {
+        display: none;}
+    
+    input[type=text] {
+        width: 100%;}
+    
+    
+    /* Wrappers */
+    .content, .content-fj, .content-footer {
+        width: 93%; margin: 0 auto;}
+    
+    .inner-content {
+        width: 100%; margin: 30px auto 40px auto;}
+    
+    .inner-page-content {
+        float: left; max-width: 100%; width: 100%; margin-top: 15px;}
+    
+    .inner-page-content-top {
+        float: left; max-width: 100%; width: 100%; margin-top: 20px;}
+    
+    .inner-page-content-middle, .inner-page-content-bottom {
+        float: left; max-width: 100%; width: 100%; margin-top: 10px;}
+    
+    .content-top, .content-top-craghoppers {
+        width: 100%; margin:15px 0 30px 0;}
+    
+    .content-vacancy {
+        width: 100%; margin: 15px 0 25px 0; overflow: hidden;}
+    
+    .content-left {
+        width: 97%;}
+    
+    .vacancy-list {
+        width: 100%; margin:20px 0 0 0; padding-top: 25px; border-top: 1px solid #EFAC12;}
+    
+    .vacancy-details {
+        width: 100%;}
+
+    .vacancy-buttons {
+        width: 209px; height: auto; margin: 0 auto; float: left; clear: both; overflow: hidden;}
+    
+    
+    
+    a.up-button {
+        margin-top: 20px;}
+
+    
+    /* Featured Jobs */
+    h1.fj {
+        margin: 0 0 25px 0;}
+    
+    .content-fj {
+        padding: 25px 0 30px 0;}
+    
+    .fj-regatta, .fj-dare2b, .fj-craghoppers {
+        width: 28%;}
+    
+    .fj-regatta {
+        float: left; margin-right: 8%;}
+    
+    p.fj-title {
+        text-transform: uppercase; 
+        font-size: 95%; 
+        margin-bottom: 15px; 
+        float: left;}
+    
+    a.fj-button {
+        text-transform: uppercase;
+        font-size: 80%;
+        font-weight: bold;
+        background: #EFAC12;
+        color: #575756;
+        max-width: 90%;
+        display: block;
+        padding: 4% 0;
+        text-align: center;
+        margin-top: 25px;
+        clear: both;}
+    
+    a.fj-button:hover, .fj-button:active {
+        background: #575756; color: white;}
+    
+    
+    /* Footer */
+    .content-footer {
+        padding: 15px 0 13px 0;}
+    
+    p.footer-regatta, p.footer-dare2b, p.footer-craghoppers {
+        float: none; margin:0 0 10px 0; width: 100%; text-align: center;}
+    
+    p.footer-blue-octopus-light, p.footer-blue-octopus-dark {
+        float: none; width: 100%; margin: 10px 0 0 0; text-align: center;}
+
+   
+    
+    /* Social Media */
+    
+    div.social-media-links-regatta {
+        width: 224px; height: 39px; float: none; margin:0 auto; clear: both;}
+    
+    a.facebook-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+    a.facebook-regatta:hover {
+        background-position: -1px -41px;}
+    
+    a.twitter-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -41px -1px;}
+    a.twitter-regatta:hover {
+        background-position: -41px -41px;}
+
+    a.instagram-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -82px -1px;}
+    a.instagram-regatta:hover {
+        background-position: -82px -41px;}
+
+    a.youtube-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -122px -1px;}
+    a.youtube-regatta:hover {
+        background-position: -122px -41px;}
+
+    a.blog-regatta {
+        width: 40px; height: 39px; background-size: 249px; float: left; background-position: -162px -1px;}
+    a.blog-regatta:hover {
+        background-position: -162px -41px;}
+
+     div.social-media-links-about-regatta {
+        width: 224px; height: 39px; float: none; margin:0 auto; clear: both;}
+    
+    a.facebook-about-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+    a.facebook-about-regatta:hover {
+        background-position: -1px -41px;}
+    
+    a.twitter-about-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -41px -1px;}
+    a.twitter-about-regatta:hover {
+        background-position: -41px -41px;}
+
+    a.instagram-about-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -82px -1px;}
+    a.instagram-about-regatta:hover {
+        background-position: -82px -41px;}
+
+    a.youtube-about-regatta {
+        width: 40px; height: 39px; margin-right: 6px; background-size: 249px; background-position: -122px -1px;}
+    a.youtube-about-regatta:hover {
+        background-position: -122px -41px;}
+
+    a.blog-about-regatta {
+        width: 40px; height: 39px; background-size: 249px; float: left; background-position: -162px -1px;}
+    a.blog-about-regatta:hover {
+        background-position: -162px -41px;}
+
+
+    
+    
+    /* SOCIAL MEDIA - DARE2B */
+    .social-media-links-dare2b {
+        width: 132px; height: 39px; float: none; margin:0 auto; clear: both;}
+
+    a.facebook-dare2b {
+        background-position: -1px -82px; width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+    a.facebook-dare2b:hover {
+        background-position: -1px -122px;}
+
+    a.twitter-dare2b {
+        background-position: -41px -82px; width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+    a.twitter-dare2b:hover {
+        background-position: -41px -122px;}
+
+    a.instagram-dare2b {
+        background-position: -82px -82px; width: 40px; height: 39px; background-size: 249px;}
+    a.instagram-dare2b:hover {
+        background-position: -82px -122px;}
+    
+    
+    
+        /* SOCIAL MEDIA - CRAGHOPPERS */
+    .social-media-links-craghoppers {
+        width: 178px; height: 39px; float: none; margin:0 auto; clear: both;}
+
+    a.facebook-craghoppers {
+        background-position: -1px -162px; width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+
+    a.twitter-craghoppers {
+        background-position: -41px -162px; width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+
+    a.instagram-craghoppers {
+        background-position: -82px -162px; width: 40px; height: 39px; margin-right: 6px; background-size: 249px;}
+    
+    a.pinterest-craghoppers {
+        background-position: -122px -162px; width: 40px; height: 39px; margin-right: 0px; background-size: 249px;}
+    
+    
+    /* Regatta page */
+    img.brand-page-regatta, img.brand-page-dare2b, img.brand-page-craghoppers {
+        width: 100%; max-width: 100%; height: auto; float: right;}
+    
+    
+}
+
+
+
+
+
+
+
+
+/****************************************************************************************
+SCREEN 440px
+****************************************************************************************/
+@media only screen and (min-width: 490px) and (max-width: 767px)
+    
+{
+    
+    .content, .content-fj, .content-footer {
+        width: 440px; margin: 0 auto;}
+    
+    /* Footer */
+    .social-media-links-regatta {
+        float: left; margin:0; clear: both;}
+
+    .social-media-links-about-regatta {
+        float: left; margin:0; clear: both;}
+    
+}
+
+
+
+
+
+
+/****************************************************************************************
+RESIZING AT 450px - LOGO/TOP IMAGES/FEATURED JOBS
+****************************************************************************************/
+@media only screen and (max-width: 450px)
+    
+{
+    .content-left {
+        width: 95%;}
+    
+    td.location {
+        padding-bottom: 0;}
+    
+    td.description {
+        display: none;}
+    
+    select {
+        width: 104%;}
+    
+    /* Images */
+    img.logo {
+        max-width: 75%;}
+
+    img.home-regatta, img.home-dare2b  {
+        width: 100%; margin-bottom: 3%}
+    
+    img.home-craghoppers {
+        width: 100%; max-width: 100%;}
+    
+    
+    img.benefits-left, img.benefits  {
+        width: 100%; margin-bottom: 3%}
+    
+    img.benefits-right {
+        width: 100%; max-width: 100%;}
+    
+    
+    img.our-people-left, img.our-people  {
+        width: 100%; margin-bottom: 3%}
+    
+    img.our-people-right {
+        width: 100%; max-width: 100%;}
+    
+    
+     /* Featured Jobs */
+    .content-fj {
+        padding: 22px 0 25px 0;}
+    
+    h1.fj {
+        margin: 0}
+
+    .fj-regatta, .fj-dare2b, .fj-craghoppers {
+        width: 100%; float: left; margin: 0 auto 0 auto;}
+    .fj-regatta, .fj-dare2b {
+        border-bottom: 1px solid #EFAC12; padding-bottom: 20px;}
+
+    
+    p.fj-title {
+        text-transform: uppercase; 
+        width: 100%;
+        font-size: 100%; 
+        margin-bottom: 15px;
+        text-align: center;}
+    
+    
+    img.fj-logo-regatta, img.fj-logo-dare2b, img.fj-logo-craghoppers {
+        width: 50%; max-width: 100%; height: auto; margin-top: 20px; margin-bottom: 15px;}
+    .fj-logo-regatta {
+        margin-left: 27%;}
+    .fj-logo-dare2b {
+        margin-left: 28%;}
+    .fj-logo-craghoppers {
+        margin-left: 25%;}
+    
+    a.fj-button {
+        text-transform: uppercase;
+        margin:0 auto;
+        font-size: 90%;
+        font-weight: bold;
+        background: #EFAC12;
+        color: #575756;
+        width: 100px;
+        display: block;
+        padding: 7px 30px;
+        text-align: center;
+        float: none;
+        clear: both;}
+
+    a.fj-button:hover, #fj-button:active {
+        background: #575756; color: white;}   
+    
+    .vacancy-buttons {
+        float: none;}
+    
+    
+
+    
+}
+
+
+.poster, .poster p, .poster p span {
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 22px !important;
+    font-size: 13px !important;
+}
+
+
+a.signup {
+  color: #a59454;
+  font-weight: bold; 
+}
+
+a.signup:hover, a.signup:active {
+  color: #4a4949;
+}
